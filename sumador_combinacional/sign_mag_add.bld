@@ -1,0 +1,190 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc /home/rcampos/tmp/Nexys3_Master.ucf -p
+xc6slx16-csg324-3 sign_mag_add.ngc sign_mag_add.ngd
+
+Reading NGO file "/home/rcampos/fpga/sumador_combinacional/sign_mag_add.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"/home/rcampos/tmp/Nexys3_Master.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "c"         LOC = "U16" |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(126)]: NET "c" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "c"         LOC = "U16" |> [/home/rcampos/tmp/Nexys3_Master.ucf(126)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(126)]: NET "c" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "a1"          LOC = "T10" |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(137)]: NET "a1" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "a1"          LOC = "T10" |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(137)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(137)]: NET "a1" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "a2"          LOC = "T9"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(138)]: NET "a2" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "a2"          LOC = "T9"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(138)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(138)]: NET "a2" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "a3"          LOC = "V9"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(139)]: NET "a3" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "a3"          LOC = "V9"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(139)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(139)]: NET "a3" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "a4"          LOC = "M8"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(140)]: NET "a4" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "a4"          LOC = "M8"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(140)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(140)]: NET "a4" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "b1"          LOC = "N8"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(141)]: NET "b1" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "b1"          LOC = "N8"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(141)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(141)]: NET "b1" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "b2"          LOC = "U8"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(142)]: NET "b2" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "b2"          LOC = "U8"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(142)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(142)]: NET "b2" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "b3"          LOC = "V8"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(143)]: NET "b3" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "b3"          LOC = "V8"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(143)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(143)]: NET "b3" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "b4"          LOC = "T5"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(144)]: NET "b4" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "b4"          LOC = "T5"  |>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(144)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = "LVCMOS33";>
+   [/home/rcampos/tmp/Nexys3_Master.ucf(144)]: NET "b4" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    18
+  Number of warnings:   9
+
+Total memory usage is 402844 kilobytes
+
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "sign_mag_add.bld"...

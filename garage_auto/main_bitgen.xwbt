@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/rcampos/fpga/garage_auto/main.ncd
+OUTFILE=/home/rcampos/fpga/garage_auto/main.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/rcampos/fpga/garage_auto
+LICENSE=WebPack
+USER_INFO=175494804_177428606_0_124

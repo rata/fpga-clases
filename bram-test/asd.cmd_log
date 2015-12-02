@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/rcampos/fpga/bram-test/asd.xst" -ofn "/home/rcampos/fpga/bram-test/asd.syr" 
+xst -intstyle ise -ifn "/home/rcampos/fpga/bram-test/asd.xst" -ofn "/home/rcampos/fpga/bram-test/asd.syr" 
+xst -intstyle ise -ifn "/home/rcampos/fpga/bram-test/asd.xst" -ofn "/home/rcampos/fpga/bram-test/asd.syr" 
+xst -intstyle ise -ifn "/home/rcampos/fpga/bram-test/asd.xst" -ofn "/home/rcampos/fpga/bram-test/asd.syr" 
+xst -intstyle ise -ifn "/home/rcampos/fpga/bram-test/asd.xst" -ofn "/home/rcampos/fpga/bram-test/asd.syr" 

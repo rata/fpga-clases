@@ -1,0 +1,5 @@
+verilog work "../../tmp/hex_to_sseg.v"
+verilog work "../../tmp/disp_mux.v"
+verilog work "contador_n.v"
+verilog work "contador_digito.v"
+verilog work "main.v"

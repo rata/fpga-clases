@@ -1,0 +1,37 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/rcampos/fpga/bram-test/tst_isim_beh.exe -prj /home/rcampos/fpga/bram-test/tst_beh.prj work.tst work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+WARNING:Simulator:1010 - One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running fuse with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Analyzing Verilog file "/home/rcampos/fpga/bram-test/asd.v" into library work
+Analyzing Verilog file "/home/rcampos/fpga/bram-test/tst.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1827: Element index 7 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1839: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1854: Element index 7 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1860: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1866: Element index 23 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1872: Element index 31 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1935: Element index 7 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1949: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1964: Element index 7 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1970: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1976: Element index 23 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1982: Element index 31 into mem is out of bounds
+Completed static elaboration
+Fuse Memory Usage: 97624 KB
+Fuse CPU Usage: 900 ms
+Compiling module RAMB8BWER(DATA_WIDTH_A=1,DATA_WI...
+Compiling module BRAM_SDP_MACRO(BRAM_SIZE="9Kb",D...
+Compiling module asd
+Compiling module tst
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable /home/rcampos/fpga/bram-test/tst_isim_beh.exe
+Fuse Memory Usage: 677404 KB
+Fuse CPU Usage: 1080 ms
+GCC CPU Usage: 4430 ms

@@ -1,0 +1,184 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml sum_main.twx sum_main.ncd -o sum_main.twr sum_main.pcf
+
+Design file:              sum_main.ncd
+Physical constraint file: sum_main.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+an<0>       |         9.303(R)|      SLOW  |         5.076(R)|      FAST  |clk_BUFGP         |   0.000|
+an<1>       |         9.336(R)|      SLOW  |         5.092(R)|      FAST  |clk_BUFGP         |   0.000|
+an<2>       |         9.126(R)|      SLOW  |         5.090(R)|      FAST  |clk_BUFGP         |   0.000|
+an<3>       |         9.361(R)|      SLOW  |         5.238(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<0>      |        10.282(R)|      SLOW  |         5.852(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<1>      |        10.179(R)|      SLOW  |         5.594(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<2>      |        10.010(R)|      SLOW  |         5.661(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<3>      |        10.064(R)|      SLOW  |         5.656(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<4>      |        10.227(R)|      SLOW  |         5.609(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<5>      |        10.102(R)|      SLOW  |         5.529(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<6>      |        10.066(R)|      SLOW  |         5.640(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<7>      |        10.009(R)|      SLOW  |         5.480(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.760|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a0             |seg<0>         |   12.253|
+a0             |seg<1>         |   11.976|
+a0             |seg<2>         |   11.981|
+a0             |seg<3>         |   12.529|
+a0             |seg<4>         |   12.024|
+a0             |seg<5>         |   12.513|
+a0             |seg<6>         |   12.531|
+a0             |seg<7>         |    9.453|
+a0             |sum0           |    8.561|
+a0             |sum1           |   10.601|
+a0             |sum2           |   10.506|
+a0             |sum3           |    9.267|
+a1             |seg<0>         |   12.052|
+a1             |seg<1>         |   11.775|
+a1             |seg<2>         |   11.780|
+a1             |seg<3>         |   12.328|
+a1             |seg<4>         |   11.823|
+a1             |seg<5>         |   12.312|
+a1             |seg<6>         |   12.330|
+a1             |seg<7>         |    9.454|
+a1             |sum1           |   10.400|
+a1             |sum2           |   10.594|
+a1             |sum3           |    9.268|
+a2             |seg<0>         |   12.221|
+a2             |seg<1>         |   11.944|
+a2             |seg<2>         |   11.949|
+a2             |seg<3>         |   12.497|
+a2             |seg<4>         |   11.992|
+a2             |seg<5>         |   12.481|
+a2             |seg<6>         |   12.499|
+a2             |seg<7>         |    9.619|
+a2             |sum1           |   10.569|
+a2             |sum2           |    9.962|
+a2             |sum3           |    9.433|
+a3             |seg<0>         |   11.782|
+a3             |seg<1>         |   11.505|
+a3             |seg<2>         |   11.510|
+a3             |seg<3>         |   12.058|
+a3             |seg<4>         |   11.553|
+a3             |seg<5>         |   12.042|
+a3             |seg<6>         |   12.060|
+a3             |seg<7>         |    9.160|
+a3             |sum1           |   10.130|
+a3             |sum2           |    9.635|
+a3             |sum3           |    8.680|
+b0             |seg<0>         |   12.614|
+b0             |seg<1>         |   12.337|
+b0             |seg<2>         |   12.342|
+b0             |seg<3>         |   12.890|
+b0             |seg<4>         |   12.385|
+b0             |seg<5>         |   12.874|
+b0             |seg<6>         |   12.892|
+b0             |seg<7>         |   10.016|
+b0             |sum0           |    9.294|
+b0             |sum1           |   10.962|
+b0             |sum2           |   10.759|
+b0             |sum3           |    9.830|
+b1             |seg<0>         |   12.717|
+b1             |seg<1>         |   12.440|
+b1             |seg<2>         |   12.445|
+b1             |seg<3>         |   12.993|
+b1             |seg<4>         |   12.488|
+b1             |seg<5>         |   12.977|
+b1             |seg<6>         |   12.995|
+b1             |seg<7>         |    9.917|
+b1             |sum1           |   11.065|
+b1             |sum2           |   10.890|
+b1             |sum3           |    9.731|
+b2             |seg<0>         |   12.161|
+b2             |seg<1>         |   11.884|
+b2             |seg<2>         |   11.889|
+b2             |seg<3>         |   12.437|
+b2             |seg<4>         |   11.932|
+b2             |seg<5>         |   12.421|
+b2             |seg<6>         |   12.439|
+b2             |seg<7>         |    9.450|
+b2             |sum1           |   10.509|
+b2             |sum2           |    9.902|
+b2             |sum3           |    9.264|
+b3             |seg<0>         |   12.524|
+b3             |seg<1>         |   12.247|
+b3             |seg<2>         |   12.252|
+b3             |seg<3>         |   12.800|
+b3             |seg<4>         |   12.295|
+b3             |seg<5>         |   12.784|
+b3             |seg<6>         |   12.802|
+b3             |seg<7>         |    9.665|
+b3             |sum1           |   10.872|
+b3             |sum2           |   10.360|
+b3             |sum3           |    9.185|
+btn<0>         |seg<0>         |   12.804|
+btn<0>         |seg<1>         |   12.502|
+btn<0>         |seg<2>         |   12.532|
+btn<0>         |seg<3>         |   12.627|
+btn<0>         |seg<4>         |   12.550|
+btn<0>         |seg<5>         |   13.119|
+btn<0>         |seg<6>         |   12.629|
+btn<0>         |seg<7>         |   12.346|
+btn<1>         |seg<0>         |   12.888|
+btn<1>         |seg<1>         |   12.586|
+btn<1>         |seg<2>         |   12.616|
+btn<1>         |seg<3>         |   13.033|
+btn<1>         |seg<4>         |   12.634|
+btn<1>         |seg<5>         |   13.203|
+btn<1>         |seg<6>         |   13.035|
+btn<1>         |seg<7>         |   11.970|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Aug 27 11:50:44 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 388 MB
+
+
+

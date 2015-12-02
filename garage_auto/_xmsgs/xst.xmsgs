@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/rcampos/fpga/garage_auto/main.v" Line 45: Port <arg fmt="%s" index="1">max_tick</arg> is not connected to this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/rcampos/fpga/garage_auto/main.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">max_tick</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">counter</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_an</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0026[0:6]</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+</messages>
+

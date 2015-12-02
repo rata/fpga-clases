@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Oct 17 11:08:12 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "btn" LOCATE = SITE "B8" LEVEL 1;
+COMP "sum0" LOCATE = SITE "U16" LEVEL 1;
+COMP "sum1" LOCATE = SITE "V16" LEVEL 1;
+COMP "sum2" LOCATE = SITE "U15" LEVEL 1;
+COMP "sum3" LOCATE = SITE "V15" LEVEL 1;
+COMP "sum4" LOCATE = SITE "M11" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "M13" LEVEL 1;
+SCHEMATIC END;
+

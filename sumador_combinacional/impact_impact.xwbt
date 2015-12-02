@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/rcampos/fpga/sumador_combinacional/impact.xsl
+OUTFILE=/home/rcampos/fpga/sumador_combinacional/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/rcampos/fpga/sumador_combinacional
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,4 @@
+verilog work "../../tmp/hex_to_sseg.v"
+verilog work "../../tmp/disp_mux.v"
+verilog work "fib.v"
+verilog work "main.v"
